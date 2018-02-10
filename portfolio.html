@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body style="background-color: slategrey;">
+
   <!-- Bring in Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,38 +28,40 @@
       </ul>
     </div>
   </nav>
+  
   <!-- Begin Content -->
   <div class="container" style="margin: 0 auto;">
     <h1 class="projects" style="font-size: 52px; text-decoration: underline; text-align: center; margin-top: 20px;">Projects</h1>
-    
-    <div class="card" style="width: 18rem; margin-left: 50px; margin-top: 50px; float: left;">
-      <img class="card-img-top" src="./images/poke-ball.jpg" alt="PokeBall" style="height: 250px; width: 250px; margin: 0 auto; margin-top: 10px;">
-      <hr>
-      <div class="card-body">
-        <h5 class="card-title">PokéTrivia</h5>
-        <p class="card-text">This is a basic trivia game that tests knowledge of the original 151 Pokémon.  Can be altered to accomodate all Pokémon.</p>
-        <a href="https://bigminer106.github.io/PokeTrivia/" class="btn btn-primary">See it in action!</a>
+    <div class="card-deck">
+      <div class="card" style="width: 18rem; margin-left: 50px; margin-top: 50px; float: left;">
+        <img class="card-img-top" src="./images/poke-ball.jpg" alt="PokeBall" style="height: 250px; width: 250px; margin: 0 auto; margin-top: 10px;">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">PokéTrivia</h5>
+          <p class="card-text" style="text-align: center;">This is a basic trivia game that tests knowledge of the original 151 Pokémon. Can include all Pokémon.</p>
+          <div style="text-align: center;">
+            <a href="https://bigminer106.github.io/PokeTrivia/" class="btn btn-primary">See it in action!</a>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="card" style="width: 18rem; margin-top: 50px; margin-left: 50px; float: left;">
-      <img src="./images/littlehelpers-print.png" alt="Little Helpers" class="card-img-top" style="height: 250px; width: 250px; margin: 0 auto; margin-top: 10px;">
-      <hr>
-      <div class="card-body">
-        <h5 class="card-title">Little Helpers</h5>
-        <p class="card-text">This is a chore-tracking app to help both parents and their children by setting points for both chores and rewards. Unfortunately, the link to it is broken.</p>
+      <div class="card" style="width: 18rem; margin-top: 50px; margin-left: 50px; float: left;">
+        <img src="./images/littlehelpers-print.png" alt="Little Helpers" class="card-img-top" style="height: 250px; width: 250px; margin: 0 auto; margin-top: 10px;">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Little Helpers</h5>
+          <p class="card-text" style="text-align: center;">This is a chore-tracking app to help both parents and their children by setting points for both chores and rewards. Unfortunately, the link to it is not functioning properly.</p>
+        </div>
       </div>
-    </div>
 
-    <div class="card" style="width: 18rem; margin-top: 50px; margin-left: 50px; float: left;">
-      <img src="./images/mtg-symbol.jpeg" alt="MTG Planeswalker Logo" class="card-img-top" style="width: 250px; height: 250px; margin: 0 auto; margin-top: 10px;">
-      <hr>
-      <div class="card-body">
-        <h5 class="card-title">[Name TBD]</h5>
-        <p class="card-text">This is intended as a reference site for those who play and study Magic: the Gathering.  This site is currently under construction, but will be available in the future.</p>
+      <div class="card" style="width: 18rem; margin-top: 50px; margin-left: 50px; float: left;">
+        <img src="./images/mtg-symbol.jpeg" alt="MTG Planeswalker Logo" class="card-img-top" style="width: 250px; height: 250px; margin: 0 auto; margin-top: 10px;">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">[Name TBD]</h5>
+          <p class="card-text" style="text-align: center;">This is intended as a reference site for those who play and study Magic: the Gathering.  This site is currently under construction, but will be available in the future.</p>
+        </div>
       </div>
     </div>
   </div>
+
   <!-- Bootstrap JS Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
